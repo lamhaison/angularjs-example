@@ -1,0 +1,13 @@
+<div>
+	<div> {{ error }} </div>
+	<form name="searchUser" ng-submit="gettoken(username, password, user_id)">
+		<input type="search" required placeholder="Username" ng-model="username"/>
+		<input type="password" required placeholder="Username" ng-model="password"/>
+		<input type="search" required placeholder="User ID" ng-model="user_id"/>
+		<input type="submit" value="Submit"/>
+	</form>
+</div>
+
+<div>
+    Token: {{token.token}}
+</div>
